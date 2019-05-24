@@ -1,0 +1,55 @@
+body,html {
+    height: 100%;
+}
+
+.chat-container {
+    margin: 0px;
+    padding: px;
+}
+
+.chat-message {
+  padding: 6px;
+  border-radius: 3px;
+  margin-bottom: 3px;
+}
+
+.bot-message {
+    background: green;
+    color: white;
+}
+
+.human-message {
+    background:dodgerblue;
+    color: white;
+    margin: 13px 1px;
+}
+
+.input {
+  width: 100%;
+  margin: 35px 0px;
+  height: 60px;
+  border: 1px solid rosybrown;
+  border-radius: 3px;
+}
+
+.btn-group1 button, .btn-group1 select{
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 80%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group1 button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group1 button:hover {
+  background-color: #3e8e41;
+}
+
+.selector {
+    display: none;
+}
